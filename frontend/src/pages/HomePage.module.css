@@ -1,0 +1,15 @@
+.jobCard {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+
+  .jobCard:hover {
+    transform: scale(1.03);
+    box-shadow: var(--mantine-shadow-lg);
+  }
+
+  .cardContent {
+    flex-grow: 1;
+  }

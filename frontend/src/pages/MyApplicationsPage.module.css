@@ -1,0 +1,13 @@
+.myAppsTable th,
+.myAppsTable td {
+  text-align: left !important;
+  vertical-align: middle;
+}
+
+.myAppsTable tbody tr {
+    transition: background-color 0.15s ease;
+}
+
+.myAppsTable tbody tr:hover {
+    background-color: var(--mantine-color-gray-0);
+}

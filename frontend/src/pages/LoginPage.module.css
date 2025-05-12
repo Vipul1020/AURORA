@@ -1,0 +1,28 @@
+.wrapper {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.pexels.com/photos/10523259/pexels-photo-10523259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  }
+
+  .form {
+    border-right: 1px solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-7));
+    min-height: 100vh;
+    max-width: 450px;
+    width: 100%;
+    padding: var(--mantine-spacing-xl);
+    padding-top: 80px;
+
+    @media (max-width: var(--mantine-breakpoint-sm)) {
+      max-width: 100%;
+      border-right: none;
+    }
+  }
+
+  .title {
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+    font-weight: 600;
+    text-align: center;
+    margin-top: var(--mantine-spacing-md);
+    margin-bottom: calc(var(--mantine-spacing-xl) * 1.5);
+  }

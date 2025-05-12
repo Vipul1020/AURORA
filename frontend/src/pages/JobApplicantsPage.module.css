@@ -1,0 +1,13 @@
+.applicantTable th,
+.applicantTable td {
+  text-align: left;
+  vertical-align: middle;
+}
+
+.applicantTable tbody tr {
+    transition: background-color 0.15s ease;
+}
+
+.applicantTable tbody tr:hover {
+    background-color: var(--mantine-color-gray-0);
+}
